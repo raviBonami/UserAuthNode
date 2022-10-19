@@ -20,4 +20,4 @@ app.set('view engine', 'ejs')
 app.use('',routes)
 
 
-app.listen(8000,() => {console.log("8000 listening...")})
+app.listen(3000,() => {console.log("8000 listening...")})

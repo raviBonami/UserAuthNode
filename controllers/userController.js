@@ -95,6 +95,7 @@ const postLogin = async (request, response) => {
 
 // Get protected route
 const getSecret = (request, response) => {
+    console.log(request,"---------")
     try{
         response.render('dashboard')
     }catch(err){
